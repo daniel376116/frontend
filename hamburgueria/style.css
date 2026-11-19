@@ -1,0 +1,114 @@
+/* Reseta margens padrão do navegador e define a fonte */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #f9f9f9;
+  padding: 20px;
+  color: #333333;
+}
+
+/* Caixa principal com a borda vermelha igual ao print */
+.container {
+  max-width: 950px;
+  margin: 0 auto;
+  background-color: #ffffff;
+  border: 3px solid #a8201a;
+  padding: 25px;
+}
+
+/* Título principal centralizado */
+header h1 {
+  color:  #a8201a;  
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 12px;
+}
+
+header p {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+/* Linha divisória */
+hr {
+  border: 0;
+  border-top: 1px solid #dddddd;
+  margin: 15px 0;
+}
+
+/* Subtítulo do Cardápio */
+.cardapio h2 {
+  color: #b22222;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+/* Cada produto do cardápio */
+.item {
+  margin-bottom: 20px;
+}
+
+.item p {
+  font-size: 13px;
+  margin-bottom: 8px;
+}
+
+/* Padroniza o tamanho das 4 imagens sem distorcer */
+.item img {
+  width: 150px;
+  height: 135px;
+  object-fit: cover;
+  border-radius: 6px;
+  display: block;
+}
+
+/* Informações de contato */
+footer p {
+  font-size: 12px;
+  margin-bottom: 6px;
+}
+
+.whatsapp-link {
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+
+.whatsapp-link {
+  text-align: center;   /* Centraliza o texto na página */
+  font-size: 16px;      /* Aumenta o tamanho da letra para dar destaque */
+  font-weight: bold;    /* Deixa em negrito */
+  color: #b22222;       /* Vermelho clássico (mesmo tom da borda/subtítulos) */
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+.whatsapp-link a:hover {
+  text-decoration: underline;
+}
+
+/* Centraliza e estiliza o botão amarelo */
+.area-botao {
+  text-align: center;
+  margin-top: 10px;
+}
+
+#btn-pedido {
+  background-color: #f4c430;
+  color: #000000;
+  font-weight: bold;
+  font-size: 13px;
+  padding: 10px 22px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#btn-pedido:hover {
+  background-color: #e0b020;
+}
